@@ -19,8 +19,9 @@ class Hero:
     # Метод отдыха
     def rest(self):
         print(f"{self.name} отдыхает…")
-        self.health += 1    # Увеличиваем здоровье на 1
-
+        print(f"{self.name} бухает…")
+        print(f"{self.name} поет…")
+        self.health += 1  # Увеличиваем здоровье на 1
 
 # Создание 2 объекта класса Hero
 hero1 = Hero("Арагорн", 10, 100, 50)
